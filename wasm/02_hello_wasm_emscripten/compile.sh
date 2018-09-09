@@ -1,3 +1,3 @@
 # source ./emsdk_env.sh --build=Release
 
-emcc hello.c -s WASM=1 -o index.html
+emcc hello.c -o index.html

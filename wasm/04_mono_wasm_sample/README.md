@@ -44,7 +44,8 @@ copy debug\* .
 
 ## Step 3
 
-Start a web server from the sample directory (where index.html is), e.g. with the provided Python script:
+Start a web server from the sample directory (where index.html is, i.e. the build folder), e.g. with the provided Python script:
+
 ```
 python server.py
 ```
