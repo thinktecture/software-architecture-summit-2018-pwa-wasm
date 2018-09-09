@@ -1,10 +1,8 @@
 import {Inject, Injectable} from '@angular/core';
 import {FeatureService} from './feature.service';
-import {Observable} from 'rxjs/Observable';
+import {Observable, from as fromPromise, of} from 'rxjs';
 import {BrowserFeatureKey} from '../models/browserFeatureKey.model';
 import {WINDOW} from './window.token';
-import {fromPromise} from 'rxjs/observable/fromPromise';
-import {of} from 'rxjs/observable/of';
 
 @Injectable()
 export class ShareService {

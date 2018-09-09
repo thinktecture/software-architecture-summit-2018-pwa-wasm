@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {SwUpdate} from '@angular/service-worker';
-import {Subscription} from 'rxjs/Subscription';
+import {Subscription} from 'rxjs';
 import {NotificationService} from '../../shared/services/notification.service';
 
 @Injectable()

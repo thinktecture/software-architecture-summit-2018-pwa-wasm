@@ -2,7 +2,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {UpdateService} from '../../services/update.service';
 import {PushNotificationService} from '../../../shared/services/pushNotification.service';
 import {BlurService} from '../../services/blur.service';
-import {Subscription} from 'rxjs/Subscription';
+import {Subscription} from 'rxjs';
 
 @Component({
     selector: 'app-root',

@@ -1,10 +1,8 @@
 import {Injectable} from '@angular/core';
 import {SwPush} from '@angular/service-worker';
-import {Observable} from 'rxjs/Observable';
+import {Observable, of, from as fromPromise} from 'rxjs';
 import {ApiService} from './base/api.service';
 import {environment} from '../../../environments/environment';
-import {of} from 'rxjs/observable/of';
-import {fromPromise} from 'rxjs/observable/fromPromise';
 
 @Injectable()
 export class PushNotificationService {
