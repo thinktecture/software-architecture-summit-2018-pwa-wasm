@@ -1,6 +1,6 @@
 # Simple Hello World WASM sample with Emscripten
 
-Based on the tutorial found here: http://webassembly.org/getting-semtarted/developers-guide/
+Based on the tutorial found here: http://webassembly.org/getting-started/developers-guide/
 
 ## Step 1
 
